@@ -5,7 +5,7 @@
 
 Setup your Google Cloud Client by following the instructions [here](https://cloud.google.com/natural-language/docs/quickstart-client-libraries#client-libraries-usage-python).
 
-Download the service account file and move it to *~/.gce/
+Download the service account file and move it to *~/.gce/*
 
 Clone the repo with:
 ```bash
@@ -28,10 +28,21 @@ export GOOGLE_APPLICATION_CREDENTIALS=<path_to_service_account_file>
 If you run an python script from within PyCharm, add *GOOGLE_APPLICATION_CREDENTIALS* and its value to 
 the Run Configuration's "Environment variables".
 
-## Sentiment Analysis
+## Running
+
+### Sentiment Analysis
 
 Test text with:
 ```bash
 $ ./sentiment_analysis.py -t "I disagree very strongly"
 $ ./sentiment_analysis.py -t "I agree very strongly"
 ```
+
+## CLI Options
+
+### sentiment_analysis.py 
+
+| Option           | Description                                        | Default        |
+|:-----------------|----------------------------------------------------|----------------|
+| --text -t        | Text for analysis                                  |                |
+| -h, --help       | Summary of options                                 |                |
