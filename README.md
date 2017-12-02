@@ -28,7 +28,7 @@ export GOOGLE_APPLICATION_CREDENTIALS=<path_to_service_account_file>
 If you run an python script from within PyCharm, add *GOOGLE_APPLICATION_CREDENTIALS* and its value to 
 the Run Configuration's "Environment variables".
 
-## Running
+## Usage
 
 ### Sentiment Analysis
 
