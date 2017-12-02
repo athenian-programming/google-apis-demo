@@ -14,7 +14,7 @@ $ cd ~/git/
 $ git clone https://github.com/athenian-robotics/google-apis-demo.git
 ```
 
-Install required python modules with:
+Install required python packages with:
 ```bash
 $ cd ~/git/google-apis-demo
 $ pip install -r requirements.txt 
