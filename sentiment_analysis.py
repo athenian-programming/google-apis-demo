@@ -18,9 +18,9 @@ def get_sentiment(client, text):
 
 
 if __name__ == '__main__':
-    # Setup args
+    # Parse cli args
     parser = argparse.ArgumentParser()
-    parser.add_argument("-t", "--text", dest=TEXT, help="Text for analysis")
+    parser.add_argument("-t", "--text", required=True, dest=TEXT, help="Text for analysis")
     args = vars(parser.parse_args())
 
     # Instantiate a client
