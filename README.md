@@ -14,12 +14,6 @@ $ cd ~/git/
 $ git clone https://github.com/athenian-robotics/google-apis-demo.git
 ```
 
-Install required python packages with:
-```bash
-$ cd ~/git/google-apis-demo
-$ pip install -r requirements.txt 
-```
-
 Add GOOGLE_APPLICATION_CREDENTIALS to your env to your *~/.bashrc*:
 ```bash
 export GOOGLE_APPLICATION_CREDENTIALS=<path_to_service_account_file>
